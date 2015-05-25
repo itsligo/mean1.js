@@ -1,4 +1,4 @@
-cd 'use strict';
+'use strict';
 
 // Init the application configuration module for AngularJS application
 var ApplicationConfiguration = (function() {
