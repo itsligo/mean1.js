@@ -1,8 +1,9 @@
 'use strict';
 
 module.exports = {
-	//db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
-	db: 'mongodb://jkelleher:itsligo@ds062807.mongolab.com:62807/testjk',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+	//db: 'mongodb://jkelleher:itsligo@ds062807.mongolab.com:62807/testjk',
+	//db: 'mongodb://mongojk1:hyXKB7mF6GP4.V5w326NuH8YqfiKiLHEIqWoXAPwlHw-@ds036178.mongolab.com:36178/mongojk1',
 	assets: {
 		lib: {
 			css: [
